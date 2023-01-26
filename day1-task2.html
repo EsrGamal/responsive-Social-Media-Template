@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <title>Document</title>
+  <style>
+    /* p {
+      background-color: aqua;
+    } */
+    /* {
+      box-shadow: 2px 18px 96px 60px rgba(163,149,149,0.75);
+    } */
+
+    /* @media screen and (max-width: 400px) {
+      #right {
+        display: none;
+      }
+    } */
+
+    /* nav {
+      height: 9vh;
+    } */
+
+    #himg {
+      width: 3vw;
+      height: 3vw;
+      border-radius: 50%;
+    }
+
+    #navb {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #mgcard {
+      width: 10vw;
+
+    }
+
+    #rc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .img {
+      width: 10vw;
+    }
+
+    .img-post {
+      /* height: 10vh; */
+      width: 10vh;
+      border-radius: 50%;
+    }
+
+    .imgf {
+      width: 20vw;
+      /* height: 20vh; */
+    }
+
+    .imgr {
+      width: 40vw;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-secondary" id="navb">
+      <div>
+        <ul class="nav nav-pills bg-secondary ">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#"><i style="font-size: 20px;color: aliceblue;"
+                class="bi bi-house-fill"> </i>Logo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i style="font-size: 20px;color: aliceblue;" class="bi bi-globe2"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i style="font-size: 20px;color: aliceblue;" class="bi bi-person-fill"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled"><i style="font-size: 20px;color: aliceblue;" class="bi bi-envelope"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">
+              <i style="font-size: 20px;color: aliceblue;" class="bi bi-bell-fill"></i><span
+                class="badge text-bg-danger">4</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <img id="himg" src="anonymous-boy-icon-cartoon-style-vector-web-design-isolated-white-background-220529558.jpg">
+      </div>
+    </nav>
+    <!-- ///////////////////////////////// Top First sections//////////////////////////////////////////////-->
+    <div class="row row-cols-3" style="margin-top: 14px;">
+      <div class="col-sm-2 col-lg-3">
+        <div id="rc" class="card">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">My Profile</h5>
+          </div>
+          <img id="mgcard" src="img.jpg" class="card-img-center">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><i style="color: gray;" class="bi bi-pen-fill"></i>Designer, UI</li>
+            <li class="list-group-item"><i style="color: gray;" class="bi bi-house-fill"></i> LONDEN</li>
+            <li class="list-group-item"><i style="color: gray;" class="bi bi-calendar-month-fill"></i>Febreuary.1.1999
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- =============================center top========================= -->
+      <div class="col-sm-8 col-lg-7 d-flex flex-column">
+        <div class="card">
+          <h5 class="card-title">Social Media Template</h5>
+          <div class="card-body">
+            <input class="input-group" type="text" value="Status Feeling Below" style="width:100%;">
+            <div>
+              <button class="btn bg-secondary" style="margin-top:10px;"><i style="color: rgb(255, 254, 254);"
+                  class="bi bi-pen-fill"></i>Post</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =============================right top -->
+      <div class="col-sm-2 col-lg-2 d-sm-block  d-xss-none">
+        <div class="card ">
+          <div class="card-body">
+            <p class="card-title">Upcoming Events</p>
+            <img class="img" src="images.jpg">
+            <div style="text-align: center;">
+              <h6>Holiday</h6>
+              <p>Friday:00:15</p>
+              <a href="#" class="btn btn-secondary" style="margin-top:10px;">Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////////////second section///////////////////////// -->
+    <div class="row row-cols-3" style="margin-top:10px">
+      <div class="col-sm-2 col-lg-3">
+        <div class="card ">
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i style="color: gray;" class="bi bi-pen-fill"></i>Designer, UI</li>
+              <li class="list-group-item"><i style="color: gray;" class="bi bi-house-fill"></i> LONDEN</li>
+              <li class="list-group-item"><i style="color: gray;" class="bi bi-calendar-month-fill"></i>Febreuary.1.1999
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- ////////////post center////////////////////////// -->
+      <div class="col-sm-8 col-lg-7" style="margin-top:-170px ;">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-post"
+              src="anonymous-boy-icon-cartoon-style-vector-web-design-isolated-white-background-220529558.jpg">
+            <span style="font-size:20px;font-weight:700;">Ahmed Yos</span>
+            <hr>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus,
+              repellendus? Sapiente est doloremque assumenda nemo expedita, deleniti fuga praesentium atque
+              exercitationem excepturi numquam
+              alias libero minus eius ab voluptate vero?</p>
+            <div style="display:flex;justify-content: space-around;">
+              <img class="imgf" src="one-bright-sunflower-carol-groenen.jpg">
+              <img class="imgf" src="one-bright-sunflower-carol-groenen.jpg">
+            </div>
+            <div style="display:flex;margin:15px;">
+              <a href="#" class="btn btn-primary" style="margin-right:30px;"><i style="color: rgb(255, 255, 255);"
+                  class="bi bi-hand-thumbs-up-fill"></i>Like</a>
+              <a href="#" class="btn btn-primary"><i style="color: rgb(255, 255, 255);"
+                  class="bi bi-chat-fill"></i>Comment</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ///////////////right center//////////////////// -->
+      <div class="col-sm-2 col-lg-2 d-sm-block  d-xss-none" style="margin-top:-50px;">
+        <div class="card ">
+          <div class="card-body">
+            <p class="card-title">Upcoming Events</p>
+            <img class="img" src="img.jpg">
+            <div style="text-align: center;">
+              <p class="card-title">Joen gorden</p>
+            </div>
+            <div style="display:flex;text-align: center;">
+              <a href="#" class="btn btn-danger" style="margin-top:10px;"><i style="color: black;"
+                  class="bi bi-x"></i></a>
+              <a href="#" class="btn btn-success" style="margin-top:10px;"><i style="color: black;"
+                  class="bi bi-check2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //////////////////////////////////////third section/////////////////////// -->
+    <div class="row row-cols-3">
+      <div class="col-sm-2 col-lg-3" style="margin-top:-220px;">
+        <div class="card ">
+          <div class="card-body">
+            <h3 class="cars-title">Interest</h3>
+            <a href="#" class="btn btn-secondary">New</a>
+            <a href="#" class="btn btn-secondary">Book</a>
+            <a href="#" class="btn btn-secondary">W3School</a>
+            <a href="#" class="btn btn-secondary" style="margin-top:7px ;">profile</a>
+            <a href="#" class="btn btn-secondary" style="margin-top:7px ;">img</a>
+            <a href="#" class="btn btn-secondary" style="margin-top:7px ;">posts</a>
+            <a href="#" class="btn btn-group" style="margin-top:7px ;">read</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8 col-lg-7" style="margin-top:10px;">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-post"
+              src="anonymous-boy-icon-cartoon-style-vector-web-design-isolated-white-background-220529558.jpg">
+            <span style="font-size:20px;font-weight:700;">Ahmed Yos</span>
+            <hr>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus,
+              repellendus? Sapiente est doloremque assumenda nemo expedita, deleniti fuga praesentium atque
+              exercitationem excepturi numquam
+              alias libero minus eius ab voluptate vero?</p>
+            <div style="display:flex;margin:15px;">
+              <a href="#" class="btn btn-primary" style="margin-right:30px;"><i style="color: rgb(255, 255, 255);"
+                  class="bi bi-hand-thumbs-up-fill"></i>Like</a>
+              <a href="#" class="btn btn-primary"><i style="color: rgb(255, 255, 255);"
+                  class="bi bi-chat-fill"></i>Comment</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 col-md-2">
+        <div class="card" style="margin-top:-150px">
+          <div class="card-body" style="text-align:center;">
+            <h6>ADS</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-3">
+      <div class="col-sm-2 col-lg-3" style="margin-top:-290px ;">
+        <div class="card">
+          <div class="card-body">
+            <div style="display:flex;justify-content:space-between;">
+              <h3>Hey!</h3>
+              <button class="btn-close bg-light"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8 col-lg-7 d-sm-block  d-xss-none" style="margin-top:10px ;">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-post"
+              src="anonymous-boy-icon-cartoon-style-vector-web-design-isolated-white-background-220529558.jpg">
+            <span style="font-size:20px;font-weight:700;">Ahmed Yos</span>
+            <hr>
+            <p class="card-text">Have You seen this?</p>
+            <img class="imgr" src="l2.jpg">
+            <div style="display:flex;margin:15px;">
+              <a href="#" class="btn btn-primary" style="margin-right:30px;"><i style="color: rgb(255, 255, 255);"
+                  class="bi bi-hand-thumbs-up-fill"></i>Like</a>
+              <a href="#" class="btn btn-primary"><i style="color: rgb(255, 255, 255);"
+                  class="bi bi-chat-fill"></i>Comment</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 col-lg-2">
+        <div class="card" style="margin-top:-370px">
+          <div class="card-body" style="text-align:center;">
+            <i class="bi bi-bug-fill" style="font-size:50px ;"></i>
+          </div>
+        </div>
+      </div>
+      </div>
+      <footer class="col-12 bg-secondary" style="margin-top: 10px;">footer</footer>
+    </div>
+  </div>
+</body>
+
+</html>
